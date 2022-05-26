@@ -23,8 +23,16 @@ int main()
   else if(choice == 2) {
       c1.multiply(c2);
       c1.print();
+  
   }
+  else if(choice == 3){
+
+	  c1.minus(c2);
+	  c1.print();
+    }
+
   else {
       return 0;
   }
+
 }
